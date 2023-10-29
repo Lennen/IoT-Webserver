@@ -1,0 +1,96 @@
+
+
+    .inp{
+        min-width: 249px;
+        margin-right: 60px;
+        margin-bottom:10px;
+    }
+    
+   p.descriptiontext { 
+    text-indent: 1.5em; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+    font-size: 15px;
+    line-height: 1.15;
+    color: #060606;
+   }
+   .instructionelem {
+        /* cards/elevation/flat */
+        /*position: absolute;*/
+        height: 186px;
+        width: 180px;
+        left: 19.65%;
+        right: 67.57%;
+        top: 145px;
+        
+        /* White / High Emphasis */
+        background: #FFFFFF;
+        border: 1px solid #0CAF3A;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+   .instructionelem:hover{
+    border: 2px solid #008cf0;
+    }
+    
+    .instructionpreview{
+        border: 1px solid #0CAF3A;
+        border-radius: 1px;
+        height: 105px;
+        width: 166px;
+        margin-top: 5px;
+    }
+    
+   .instructionelemtitle {
+       margin-top:10px;
+       font: 14px "Montserrat", serif;
+       text-align: center;
+    }
+   
+   .plus {
+  display:inline-block;
+  width:50px;
+  height:50px;
+  margin-left:63px;
+  margin-top:53px;
+  
+  background:
+    linear-gradient(#fff,#fff),
+    linear-gradient(#fff,#fff),
+    #000;
+  background-position:center;
+  background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+  background-repeat:no-repeat;
+}
+
+.alt {
+  background:
+    linear-gradient(#23B94D,#23B94D),
+    linear-gradient(#23B94D,#23B94D);
+  background-position:center;
+  background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+  background-repeat:no-repeat;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+position:absolute;
+  margin-left:71px;
+  margin-top:61px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border: 1px solid #0CAF3A;
+} 
+
+    #wrap { width: 500px; height: 390px; padding: 0; overflow: hidden; }
+    #frame { width: 547px; height: 344px; border: 1px solid black; }
+    #frame {
+        -ms-zoom: 0.15;
+        -moz-transform: scale(0.3);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.3);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.3);
+        -webkit-transform-origin: 0 0;
+    }
